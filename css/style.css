@@ -1,16 +1,15 @@
 html{
+    display: block;
     font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
     overflow-x: hidden;
     margin: 0em 0em 0em 0em;
     padding: 0em 0em 0em 0em;
     width: 100vw;
-    height: 100vh;  
+    height: 100vh;
 }
 
 body{
-
-    display: flex;
-    
+    display: block;
     font-family: inherit;
     margin: 0em 0em 0em 0em;
     padding: 0em 0em 0em 0em;
@@ -23,6 +22,12 @@ body{
     height: 100vh;    
 }
 
+header{
+    display: flex;
+    position: fixed;
+    
+}
+
 /* Header con logo y enlaces */
 #cntPadHeader{
     display: flex;
@@ -31,7 +36,7 @@ body{
     position: fixed;
     width: 80%;
     margin: 0% 10% 0% 10%;
-        
+  background-color: #f26522;      
 }
 /* Contenedor izq */
 #cntHeader{
@@ -79,12 +84,12 @@ body{
 }
 /*Color al cuadrado del logo*/
 
-/*.cntHeader2{
+.cntHeader2{
     display: flex;
     flex-direction: row;
     align-items:flex-end;
     
-}*/
+}
 
 /* Clase genérica de contenedor */
 #dvHeader2{
@@ -128,8 +133,7 @@ body{
 /* Header con logo y enlaces */
 
 .cntdivBuscador{
-    display: flex;
-    flex-direction: row;
+    display:inline;
     
     background-color: white;
     width: 35em;
@@ -138,7 +142,7 @@ body{
     margin: 11em 0em 0em 25%;
 }
 
-.txtBusqueda{
+/*.txtBusqueda{
     border-style: none;
     width: 22.5em;
     height: 90%;
