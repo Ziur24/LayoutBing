@@ -1,0 +1,167 @@
+html{
+    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+    overflow-x: hidden;
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    width: 100vw;
+    height: 100vh;  
+}
+
+body{
+
+    display: flex;
+    
+    font-family: inherit;
+    margin: 0em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+    padding: inherit;
+    background-image: url(/imágenes/WpHojasRojas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;    
+}
+
+/* Header con logo y enlaces */
+#cntPadHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+        
+}
+/* Contenedor izq */
+#cntHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+#dvHeader1{
+    display: flex;
+    align-items: center;
+    
+}
+/* Logotipo Microsoft */
+#dvLogo{
+    display: flex;
+    flex: row;
+    min-width: 11em;
+}
+#microsoft{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0.5em 3em 0em 0em;
+    min-width: 140px;
+    color: white;
+}
+#cuadrados{
+    margin-top: 0.8em;
+    width: 30PX;
+    height: 30PX;
+}
+/* Logotipo Microsoft */
+
+/*Color al cuadrado del logo*/
+.top_l{
+    fill: #f26522;
+}
+.top_r{
+    fill: #8dc63f;
+}
+.bom_l{
+    fill: #00aeef;
+}
+.bom_r{
+    fill: #ffc20e;
+}
+/*Color al cuadrado del logo*/
+
+/*.cntHeader2{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    
+}*/
+
+/* Clase genérica de contenedor */
+#dvHeader2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Clase genérica de contenedor */
+
+/* Clase genérica enlaces */
+.enlCabecera{
+    color: white;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+    font-size: 13px;
+    margin: 0em 1.4em 0em 0.5em;    
+}
+/* Clase genérica enlaces */
+
+/* Iconos de la cabecera */
+
+#iconLogin {
+ margin: 0em 1em 0em -1em;
+ scale: 0.7;
+}
+
+#iconRecompensas{
+
+    margin: 0em 0.5em 0em -0.5em;
+    filter: invert(100%);
+    width: 1em;
+}
+
+#barrasMenu{
+    width: 1.8em;
+    margin: 0em 1em 0em 3em;
+}
+
+/* Iconos de la cabecera */
+/* Header con logo y enlaces */
+
+.cntdivBuscador{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: white;
+    width: 35em;
+    height: 3.3em;
+    border-radius: 1.7em;
+    margin: 11em 0em 0em 25%;
+}
+
+.txtBusqueda{
+    border-style: none;
+    width: 22.5em;
+    height: 90%;
+    margin: 2px 0px 0px 20px;
+    font-size: 17px;
+    outline: none;
+}
+
+.icnBusquedas{
+    margin: 1em 1.3em 0em 0em;
+    width: 1em;
+    height: 1em;
+}
+
+#iconMicro{
+    filter: invert(29%) sepia(78%) saturate(1452%) hue-rotate(161deg) brightness(102%) contrast(104%);
+    width: 1.5em;
+}
+
+#iconBusquedaFotos{
+    width: 1.5em;
+}
+    
+#iconTeclado{
+    width: 1.6em;
+}
