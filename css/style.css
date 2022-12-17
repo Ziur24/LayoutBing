@@ -1,5 +1,4 @@
 html{
-    display: block;
     font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
     overflow-x: hidden;
     margin: 0em 0em 0em 0em;
@@ -22,32 +21,29 @@ body{
     height: 100vh;    
 }
 
-header{
-    display: flex;
-    position: fixed;
-    
-}
-
 /* Header con logo y enlaces */
 #cntPadHeader{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
+    top: 0;
     width: 80%;
     margin: 0% 10% 0% 10%;
-  background-color: #f26522;      
+       
+}
+
+#cntPadHeader :hover{
+    background-color: black;
 }
 /* Contenedor izq */
 #cntHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;   
+    display: flex;  
 }
+
 #dvHeader1{
     display: flex;
     align-items: center;
-    
 }
 /* Logotipo Microsoft */
 #dvLogo{
@@ -84,12 +80,6 @@ header{
 }
 /*Color al cuadrado del logo*/
 
-.cntHeader2{
-    display: flex;
-    flex-direction: row;
-    align-items:flex-end;
-    
-}
 
 /* Clase genérica de contenedor */
 #dvHeader2{
@@ -133,22 +123,26 @@ header{
 /* Header con logo y enlaces */
 
 .cntdivBuscador{
-    display:inline;
-    
+    display: flex;
+    justify-content: space-between;
     background-color: white;
-    width: 35em;
+    width: 45em;
     height: 3.3em;
     border-radius: 1.7em;
-    margin: 11em 0em 0em 25%;
+    margin: 11em 25% 0em 25%;
 }
 
-/*.txtBusqueda{
+.txtBusqueda{
     border-style: none;
-    width: 22.5em;
+    width: 72%;
     height: 90%;
     margin: 2px 0px 0px 20px;
     font-size: 17px;
     outline: none;
+}
+
+#iconBarraBuscador{
+    display: flex;
 }
 
 .icnBusquedas{
