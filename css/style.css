@@ -272,13 +272,13 @@ body{
 #flechaDerechaCarrusel{
     margin-top: 32em;
     margin-left: 104em;
-    transform: scale(1.5) rotate(-90deg);
+    transform: scale(1.5) rotate(180deg);
 }
 
 #flechaIzquierdaCarrusel{
     margin-top: 32em;
-    margin-left: 13em;
-    transform: scale(1.5) rotate(90deg);
+    margin-left: 14em;
+    transform: scale(1.5);
 }
 
 /* Contenedor de Ultimas Noticias */
