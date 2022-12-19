@@ -259,10 +259,9 @@ body{
     margin: 0.5em 0em 0em 0.6em;
 }
 
-/* Flechas de Carrusel de noticias*/
+/* Flechas de Carrusel de noticias */
 
 .flechasCarrusel{
-    
     position: absolute;
     width: 2.5em;
     height: 2.5em;
