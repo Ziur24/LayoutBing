@@ -4,8 +4,7 @@ html{
     margin: 0em 0em 0em 0em;
     padding: 0em 0em 0em 0em;
     width: 100vw;
-    height: 100vh;
-    
+    height: 100vh; 
 }
 
 body{
@@ -21,7 +20,7 @@ body{
 #cntWallpaper{
     position: fixed;
     top: 0;
-    background-image: url(/imágenes/WpHojasRojas.jpeg);
+    background-image: url(../imagenes/hojas.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
