@@ -1,6 +1,6 @@
 <p align="center"><img src="./imagenes/binglogo.png" width="180"> </p>
 
-#<p align="center">Ejercicio layout de Bing</p> 
+# <p align="center">Ejercicio layout de Bing
 
 
 ## Descripción
